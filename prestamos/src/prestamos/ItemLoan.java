@@ -9,7 +9,7 @@ public class ItemLoan extends Loan {
 	public ItemLoan(Person p, Date loanDate, Date devolutionDate, Item item,
 			String comment) throws ItemLoanException {
 
-		super(p, comment, loanDate, devolutionDate);
+		super(p, comment, loanDate, devolutionDate);//super
 
 		setItem(item);
 
